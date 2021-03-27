@@ -7,9 +7,11 @@ class Pokedex extends Component{
     render(){
         return(
             <div className="Pokedex">
-            <div class="Pokedex-title">
-            <h1>Pokedex</h1>
-            </div>
+                <div class="Pokedex-bar">
+                    <div class="Pokedex-title">
+                        <h1>Pokedex</h1>
+                    </div>
+                </div>
                 <div class="Pokedex">
                     {Pokemon.map(Poke => 
                         <Pokecard
