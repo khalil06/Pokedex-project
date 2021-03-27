@@ -5,4 +5,23 @@
     flex-wrap: wrap;
     align-items: center;
     align-content: space-around;
+    background-color: #e0fbfc;
+}
+.Pokedex-title{
+    /*width: 300px;*/
+    color:white;
+    padding: 20px;
+    border-width: 5px;
+    border-color: #ffd166;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: #ef476f;
+    margin-top: 30px;
+}.Pokedex-title:hover{
+    border-color: #ff99c8;
+    background-color: #2ec4b6;
+    box-shadow: 4px 2px 28px -1px #9b5de5;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    transition: all .5s;
 }

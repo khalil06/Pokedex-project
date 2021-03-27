@@ -1,6 +1,16 @@
 .Pokecard{
     width: 200px;
-    background-color: #cbc0d3;
+    background-color: #f7d9c4;
     border-radius: 12%;
     margin: 80px;
+}
+.Pokecard:hover{
+    color: white;
+    background-color: #f4d58d;
+    border-radius: 12%;
+    margin: 80px;
+    box-shadow: 4px 2px 28px -1px #ff7aa2;
+    transform: translateY(-0.25em);
+    transform: scale(1.09);
+    cursor: pointer;
 }
