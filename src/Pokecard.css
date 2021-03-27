@@ -3,13 +3,14 @@
     background-color: #f7d9c4;
     border-radius: 30px;
     margin: 80px;
+
 }
 .Pokecard:hover{
     color: white;
-    background-color: #f4d58d;
+    background-color: #e9c46a;
     border-radius: 12%;
     margin: 80px;
-    box-shadow: 4px 2px 28px -1px #ff7aa2;
+    box-shadow: 4px 2px 28px -1px #ffef9f;/*#ff7aa2;*/
     transform: translateY(-0.25em);
     transform: scale(1.09);
     transition: all .5s;
